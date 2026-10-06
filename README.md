@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Q1 Skills Test</title>
+    <head>
+    <body>
+        <h1>OBMC Robotics Application Form</h1>
+        <label for="fullname">Full Name: </label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="fullname"><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+        <p>Welcome! Please fill out this application form to apply for the Robotics Club.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3anAunvmD0SZ9H80BycPAUQJAZRoGlE4_R0AKfpgtSg&s=10">
+        <form>
+        <label for="grade">Your Grade Level: </label>
+        <select id="grade" name="grade">
+        <option value="grade 7">Grade 7</option>
+        <option value="grade 8">Grade 8</option>
+        <option value="grade 9">Grade 9</option>
+        <option value="grade 10">Grade 10</option>
+        </select>
+    <div>
+    <div class="form group">
+        <label>Your Gender</label>
+        <label><input type="radio" Name="Gender" value="male"> Male<label>
+        <label><input type="radio" Name="Gender" value="female"> Female<label>
+    <div>
+    <div>
+    <div class="form group">
+        <label>What are your skills?<label>
+    <div class="inline group"
+        <label><input type="checkbox" name="skills" value="electronoics">Electronics</label>
+        <label><input type="checkbox" name="skills" value="design">Design</label>
+        <label><input type="checkbox" name="skills" value="coding">Coding</label>
+    <div>
+<div>
+
+<div class="form group">
+    <label for="reason"> What is the reason about why you want to join?</label>
+    <textarea id="reason" name="reason"></textarea>
+<div>
+
+<h2 class="section title">Robotics Activities:</h2>
+<ul>
+    <li>Voice and Gesture-Controlled Robots</li>
+    <li>Camera-Powered Smart Robot</li>
+    <li>AI Companion Robot</li>
+</ul>
+<h3 class="section title">Helpful links that you can use:</h3>
+<ol>
+    <li><a href="https://www.sciencebuddies.org/blog/robotics-lessons">25+ Robotics Projects, Lessons, and Activities</a><li>
+    <li><a href="https://www.soliddigital.com/resources/robotics-websites-that-impress/">Best of Web: Robotics Websites That Impress</a><li>
+</ol>
+<button type="submit" class="submit">Submit your application here</button>
+</form>
+<body>
